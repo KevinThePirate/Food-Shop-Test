@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="container">
+    <header>Header</header>
+    <div id="tabs">
+       <ul>
+        <li data-tab-target='#starter'>Starters</li>
+        <li data-tab-target='#main'>Mains</li>
+        <li data-tab-target='#dessert'>Desserts</li>
+        <li data-tab-target='#checkout'>Check Out</li>
+        </ul>
+    </div>
+    <div class="main-content active" id="starter" data-tab-content>Starters</div>
+    <div class="main-content" id="main" data-tab-content>Mains</div>
+    <div class="main-content" id="dessert" data-tab-content>Desserts</div>
+    <div class="main-content" id="checkout" data-tab-content>Checkout</div>
+    <div id="sidebar"><h1 style="border: 5px solid black;">Basket</h1><button>Check Out</button></div>
+    <footer>Footer</footer>
+    </div>
+</body>
+</html>
